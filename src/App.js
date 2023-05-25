@@ -35,13 +35,15 @@ function App() {
     setTodoList((prevList) => {
       const updatedList = prevList.map((task) => {
         if (task.id === id) {
-          return { ...task, completed: true };
+          return { ...task, completed: !task.completed }; // Toggle the completed property
         }
         return task;
       });
       return updatedList;
     });
   };
+  
+  
 
   useEffect(() => {
     localStorage.setItem('tasks', JSON.stringify(todolist));
