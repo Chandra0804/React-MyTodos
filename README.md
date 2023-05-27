@@ -13,7 +13,7 @@ ToDo-List is a web application built using React.js for managing tasks efficient
 
 ## Installation
 
-1. Clone the repository" `https://github.com/Chandra0804/React-MyTodos.git`
+1. Clone the repository: `https://github.com/Chandra0804/React-MyTodos.git`
 2. Navigate to the project directory: `cd React-MyTodos`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
